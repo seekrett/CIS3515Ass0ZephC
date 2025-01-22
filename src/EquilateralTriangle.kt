@@ -5,6 +5,8 @@ class EquilateralTriangle(_name: String) : Triangle(_name) {
     private var side : Double = 0.0
     private var area : Double = 0.0
 
+    // FIX SETDIMENSIONS AND GETAREA. functions print 0.0 for both
+
     fun setDimensions(side : Double) {
         super.setDimensions(side, side, side)
     }
@@ -14,8 +16,7 @@ class EquilateralTriangle(_name: String) : Triangle(_name) {
     }
 
     override fun getArea(): Double {
-        val s = (side + side + side) / 2.0
-        area = sqrt((s * ((s - side) * (s - side) * (s - side))))
+        super.getArea()
         return area
     }
 }

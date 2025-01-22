@@ -16,7 +16,6 @@ fun main() {
     val sqHeight = readln().toDouble()
     (square as Square).setDimensions(sqLength, sqHeight)
 
-    /*
     // circle
     print("Circle Radius: ")
     val cRadius = readln().toDouble()
@@ -35,15 +34,28 @@ fun main() {
     print("Equilateral Triangle Side: ")
     val etSide = readln().toDouble()
     (equilateralTriangle as EquilateralTriangle).setDimensions(etSide)
-     */
 
+
+    // print results
     println("\nRESULTS:")
 
-    println("${square.name} \n${square.printDimensions()} \nArea: ${square.getArea()}")
+    // square
+    println("Shape: ${square.name}")
+    square.printDimensions()
+    println("Area: ${square.getArea()}")
 
+    // circle
+    println("Shape: ${circle.name}")
+    circle.printDimensions()
+    println("Area: ${circle.getArea()}")
 
-    //println("${circle}\n${circle.printDimensions()}\nArea: ${circle.getArea()}")
-    //println("${triangle}\n${triangle.printDimensions()}\nArea: ${triangle.getArea()}")
-    //println("${equilateralTriangle}\n${equilateralTriangle.printDimensions()}\nArea: ${equilateralTriangle.getArea()}")
+    // triangle
+    println("Shape: ${triangle.name}")
+    triangle.printDimensions()
+    println("Area: ${triangle.getArea()}")
 
+    // equilateral triangle
+    println("Shape: ${equilateralTriangle.name}")
+    equilateralTriangle.printDimensions()
+    println("Area: ${equilateralTriangle.getArea()}")
 }
