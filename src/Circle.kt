@@ -8,8 +8,8 @@ class Circle(_name: String) : Shape(_name) {
         this.radius = radius
     }
 
-    override fun printDimensions() : String{
-        return "Dimensions: Radius [$radius]"
+    override fun printDimensions() {
+        prtinln("Dimensions: Radius [$radius]")
     }
 
     override fun getArea(): Double {

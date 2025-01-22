@@ -8,8 +8,8 @@ class Square(_name: String) : Shape(_name) {
         this.height = height
     }
 
-    override fun printDimensions() : String {
-        return "Dimensions: Length [$length] Height [$height]"
+    override fun printDimensions() {
+        println("Dimensions: Length [$length] Height [$height]")
     }
 
     override fun getArea(): Double {

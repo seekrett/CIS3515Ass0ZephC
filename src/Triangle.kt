@@ -13,8 +13,8 @@ open class Triangle(_name: String) : Shape(_name) {
         this.side3 = side3
     }
 
-    override fun printDimensions() : String{
-        return "Dimensions: Side1 [$side1], Side2 [$side2], Side3 [$side3]"
+    override fun printDimensions(){
+        println("Dimensions: Side1 [$side1], Side2 [$side2], Side3 [$side3]")
     }
 
     override fun getArea(): Double {

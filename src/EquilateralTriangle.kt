@@ -6,11 +6,11 @@ class EquilateralTriangle(_name: String) : Triangle(_name) {
     private var area : Double = 0.0
 
     fun setDimensions(side : Double) {
-        this.side = side
+        super.setDimensions(side, side, side)
     }
 
-    override fun printDimensions() : String{
-        return "Dimensions: Side [$side]"
+    override fun printDimensions(){
+        println("Dimensions: Side [$side]")
     }
 
     override fun getArea(): Double {
