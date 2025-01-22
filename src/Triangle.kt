@@ -14,7 +14,7 @@ open class Triangle(_name: String) : Shape(_name) {
     }
 
     override fun printDimensions(){
-        println("Dimensions: Side1 [$side1], Side2 [$side2], Side3 [$side3]"s)
+        println("Dimensions: Side1 [$side1], Side2 [$side2], Side3 [$side3]")
     }
 
     override fun getArea(): Double {
