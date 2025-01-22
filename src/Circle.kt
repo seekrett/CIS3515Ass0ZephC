@@ -9,7 +9,7 @@ class Circle(_name: String) : Shape(_name) {
     }
 
     override fun printDimensions() {
-        prtinln("Dimensions: Radius [$radius]")
+        println("Dimensions: Radius [$radius]")
     }
 
     override fun getArea(): Double {
