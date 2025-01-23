@@ -1,12 +1,17 @@
+// Zephyr Consumido
+// CSIS 3515
+// Assignment 0
+
 fun main() {
+
     // creating instances of shapes
     var square : Shape = Square("SQUARE")
     var circle : Shape = Circle("CIRCLE")
     var triangle : Shape = Triangle("TRIANGLE")
     var equilateralTriangle : Shape = EquilateralTriangle("EQUILATERAL TRIANGLE")
 
-    // variable declarations
 
+    // ask for user input
     println("Please enter the value for each side of the following shapes.")
 
     // square
