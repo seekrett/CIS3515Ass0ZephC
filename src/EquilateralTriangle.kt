@@ -2,8 +2,6 @@ class EquilateralTriangle(_name: String) : Triangle(_name) {
 
     private var side : Double = 0.0
 
-    // FIX SETDIMENSIONS AND GETAREA. functions print 0.0 for both
-
     fun setDimensions(side : Double) {
         this.side = side
         super.setDimensions(side, side, side)
@@ -13,7 +11,9 @@ class EquilateralTriangle(_name: String) : Triangle(_name) {
         println("Dimensions: Side [$side]")
     }
 
+    /*  redundant override
     override fun getArea(): Double {
         return super.getArea()
     }
+     */
 }

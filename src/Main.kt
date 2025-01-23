@@ -37,25 +37,25 @@ fun main() {
 
 
     // print results
-    println("\nRESULTS:")
+    println("\n------- RESULTS -------")
 
     // square
     println("Shape: ${square.name}")
     square.printDimensions()
-    println("Area: ${square.getArea()}")
+    println("Area: ${square.getArea()}\n")
 
     // circle
     println("Shape: ${circle.name}")
     circle.printDimensions()
-    println("Area: ${circle.getArea()}")
+    println("Area: ${circle.getArea()}\n")
 
     // triangle
     println("Shape: ${triangle.name}")
     triangle.printDimensions()
-    println("Area: ${triangle.getArea()}")
+    println("Area: ${triangle.getArea()}\n")
 
     // equilateral triangle
     println("Shape: ${equilateralTriangle.name}")
     equilateralTriangle.printDimensions()
-    println("Area: ${equilateralTriangle.getArea()}")
+    println("Area: ${equilateralTriangle.getArea()}\n")
 }
