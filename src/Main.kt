@@ -42,20 +42,20 @@ fun main() {
     // square
     println("Shape: ${square.name}")
     square.printDimensions()
-    println("Area: ${square.getArea()}\n")
+    println("Area: ${String.format("%.2f", square.getArea())}\n")
 
     // circle
     println("Shape: ${circle.name}")
     circle.printDimensions()
-    println("Area: ${circle.getArea()}\n")
+    println("Area: ${String.format("%.2f", circle.getArea())}\n")
 
     // triangle
     println("Shape: ${triangle.name}")
     triangle.printDimensions()
-    println("Area: ${triangle.getArea()}\n")
+    println("Area: ${String.format("%.2f", triangle.getArea())}\n")
 
     // equilateral triangle
     println("Shape: ${equilateralTriangle.name}")
     equilateralTriangle.printDimensions()
-    println("Area: ${equilateralTriangle.getArea()}\n")
+    println("Area: ${String.format("%.2f", equilateralTriangle.getArea())}\n")
 }
