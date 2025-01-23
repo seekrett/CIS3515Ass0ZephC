@@ -1,13 +1,11 @@
-import kotlin.math.sqrt
-
 class EquilateralTriangle(_name: String) : Triangle(_name) {
 
     private var side : Double = 0.0
-    private var area : Double = 0.0
 
     // FIX SETDIMENSIONS AND GETAREA. functions print 0.0 for both
 
     fun setDimensions(side : Double) {
+        this.side = side
         super.setDimensions(side, side, side)
     }
 
@@ -16,7 +14,6 @@ class EquilateralTriangle(_name: String) : Triangle(_name) {
     }
 
     override fun getArea(): Double {
-        super.getArea()
-        return area
+        return super.getArea()
     }
 }
